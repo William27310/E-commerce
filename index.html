@@ -225,18 +225,36 @@
         </div>
 
         <!-- Modal pour le bouton pour ajouter l'article au panier -->
-        <div class="modal fade" id="modal-ajout-panier" tabindex="-1" aria-labelledby="modal-ajout-panier-Label"
-            aria-hidden="true">
+        <div class="modal fade modal-xl" id="modal-ajout-panier" tabindex="-1"
+            aria-labelledby="modal-ajout-panier-Label" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="modal-ajout-panier-Label">Infos</h1>
+                        <h1 class="modal-title fs-5" id="modal-ajout-panier-Label">Panier</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
 
                     <!-- Affichage dans le modal après avoir appuyer sur le bouton -->
-                    <div class="modal-body">
-                        l'article a été ajouté au panier !
+                    <div class="modal-body d-grid gap-5 d-md-flex mt-5 justify-content-center">
+                        <div class="d-flex justify-content-center mt-3">
+                            <img class="rounded-3" src="/img/Alimentation2_Panier.jpg" alt="Alimentation2_Panier.jpg">
+                        </div>
+
+                        <!-- Prix -->
+                        <div class="mt-3">
+                            <p>Prix : 108,99€</p>
+                        </div>
+
+                        <div class="mt-3">
+                            <p>Nom de l'article</p>
+                        </div>
+
+                        <div class="mt-3">
+                            <p>Quantité : 1</p>
+                        </div>
+                        <div class="mt-3">
+                            <p>Prix Total</p>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
