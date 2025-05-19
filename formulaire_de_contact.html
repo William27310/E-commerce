@@ -7,6 +7,9 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
 </head>
 
 <body class=" d-flex flex-column min-vh-100">
@@ -24,16 +27,19 @@
     </nav>
 
     <main class="pt-5 mx-auto p-2 border border-primary" style="width: 25rem;">
+
         <div class="pb-3 text-center">
             <h1>Contact</h1>
         </div>
         <div class="pb-2">
             <h3>Contactez nous !</h3>
         </div>
+
         <div class="mb-3">
             <label for="formGroupExampleInput" class="form-label">Mail</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+            <input type="text" class="form-control" id="formGroupExampleInput">
         </div>
+
         <div class="mb-3">
             <label for="formGroupExampleInput2" class="form-label">Ma demande</label>
             <select class="form-select" aria-label="Default select example">
@@ -42,19 +48,44 @@
                 <option value="2">Two</option>
                 <option value="3">Three</option>
             </select>
-            <div class="mb-3 pt-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="inlineFormCheck">
-                <label class="form-check-label" for="inlineFormCheck">
-                    J'accepte d'être recontacté
-                </label>
-                <div class="pt-3 ms-2">
-                    <button type="submit" class="btn btn-primary" style="width: 20rem;">Envoyer</button>
+        </div>
+
+        <div class="mb-3 pt-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+            <label class="form-check-label" for="inlineFormCheck">
+                J'accepte d'être recontacté
+            </label>
+            <div class="pt-2">
+                <button type="button" style="width: 21rem;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Envoyer
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Votre demande à bien été prise en compte !
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                             </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
     </main>
 
     <footer class="pt-2 pb-1 mt-auto p-4 bg-primary">
@@ -73,11 +104,7 @@
         </div>
     </footer>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
