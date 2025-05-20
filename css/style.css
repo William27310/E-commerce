@@ -2,3 +2,23 @@
     background: #0083F0;
 background: linear-gradient(90deg, rgba(0, 131, 240, 1) 0%, rgba(13, 202, 240, 1) 50%, rgba(0, 131, 240, 1) 100%);
 }
+
+.ecran {
+    width: 16.1rem;
+}
+
+.alimentation {
+    width: 15.7rem;
+}
+
+.carte {
+    width: 17rem;
+}
+
+.carte_deux {
+    width: 21.7rem;
+}
+
+.carte_trois {
+    width: 15.3rem;
+}
