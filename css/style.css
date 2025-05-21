@@ -1,0 +1,48 @@
+body {
+    background: #017EE7;
+    background: linear-gradient(0deg, rgba(1, 126, 231, 1) 30%, rgba(9, 74, 131, 1) 71%);
+}
+
+.css_un {
+    background: #1f5480;
+    background: linear-gradient(50deg, rgba(31, 84, 128, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(31, 84, 128, 1) 100%);
+}
+
+.ecran {
+    width: 16.1rem;
+}
+
+.alimentation {
+    width: 15.7rem;
+}
+
+.carte {
+    width: 20rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.carte_deux {
+    width: 21.7rem;
+}
+
+.carte_trois {
+    width: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+footer {
+    background: #1f5480;
+    background: linear-gradient(50deg, rgba(31, 84, 128, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(31, 84, 128, 1) 100%);
+}
+
+.background_color {
+    background: #3E4E5A;
+    background: linear-gradient(50deg, rgba(62, 78, 90, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(62, 78, 90, 1) 100%);
+}
+
+nav {
+    background: #3E4E5A;
+    background: linear-gradient(50deg, rgba(62, 78, 90, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(62, 78, 90, 1) 100%);
+}
