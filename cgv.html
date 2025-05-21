@@ -20,12 +20,23 @@
 </head>
 
 <body class="cgv text-white vw-80 vh-100">
-    <div class="css_un">
+
+    <!-- Logo du site internet -->
+    <div class="css_un d-none d-lg-block">
         <div class="text-center">
             <a href="index.html"><img style="width: 10%;" src="img/Logo_Site.png" alt=""></a>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <div class="css_un d-sm-none">
+        <div class="text-center">
+            <a href="index.html"><img style="width: 40%;" src="img/Logo_Site.png" alt=""></a>
+        </div>
+    </div>
+
+    <!-- Barre de navigation -->
+    <!-- Page Pc -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-none d-lg-block">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,9 +57,36 @@
             </div>
         </div>
     </nav>
-    <h1 class="d-flex justify-content-center mt-3 mb-3 ml-5 mr-5">Conditions Générales de Vente (CGV) – NextGen Hardware
+
+    <!-- Page Mobile -->
+    <nav class="navbar navbar-expand-lg bg-primary d-sm-none">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item mx-auto ms-auto">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Processeur</a>
+                    </li>
+                    <li class="nav-item mx-auto ms-auto">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Ecran</a>
+                    </li>
+                    <li class="nav-item mx-auto ms-auto">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Watercooling</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Nom de la page -->
+    <h1 class="d-flex justify-content-center mt-3 mb-3 ms-5">Conditions Générales de Vente (CGV) – NextGen Hardware
     </h1>
 
+    <!-- Pour structurer le texte -->
     <div class="mx-3 mt-5 mb-5">
         <p><b>1. Identification de l’entreprise</b></p>
         <p>Nom : NextGen Hardware</p>
@@ -151,15 +189,37 @@
         </p>
     </div>
 
+    <!-- Footer pour les liens vers les autres pages -->
+    <!-- Page PC -->
     <footer>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary d-none d-lg-block">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-white mx-5 ms-5" href="formulaire_de_contact.html">Contact</a>
+                        <a class="nav-link text-white mx-5 ms-5" href="mentions-legales.html">Mentions Légales</a>
+                        <a class="nav-link text-white mx-5 ms-5" href="cgv.html">Conditions générales de Vente</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+    <!-- Page Mobile -->
+    <footer>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary d-lg-none">
+            <div class="container-fluid">
+                <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-grid text-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link text-white mx-5 ms-5" href="formulaire_de_contact.html">Contact</a>
                         <a class="nav-link text-white mx-5 ms-5" href="mentions-legales.html">Mentions Légales</a>

@@ -33,21 +33,24 @@ body .index {
 }
 
 .ecran {
-    width: 16.1rem;
-}
-
-.alimentation {
-    width: 15.7rem;
+    width: 16rem;
 }
 
 .carte {
-    width: 20rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    width: 15rem;
+    margin-top: 6.3rem;
+}
+
+.interface_texte {
+    margin-top: 8rem;
+}
+
+.interface_texte_deux {
+    margin-top: 6.3rem;
 }
 
 .carte_deux {
-    width: 21.7rem;
+    width: 15rem;
 }
 
 .carte_trois {
@@ -77,3 +80,18 @@ nav {
 span {
     font-weight: bold;
 }
+
+.resize_img_un {
+    width: 50%;
+    margin-left: 26%;
+}
+
+.watercooling {
+    margin-bottom: -4rem;
+}
+
+.body_mobile {
+    background: #017EE7;
+    background: linear-gradient(0deg, rgba(1, 126, 231, 1) 30%, rgba(9, 74, 131, 1) 71%);
+}
+
