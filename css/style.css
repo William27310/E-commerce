@@ -1,26 +1,35 @@
 body .index {
     background: #017EE7;
     background: linear-gradient(0deg, rgba(1, 126, 231, 1) 30%, rgba(9, 74, 131, 1) 71%);
+    font-family: "Share Tech", sans-serif;
 }
 
 .formulaire {
     background: #017EE7;
     background: linear-gradient(353deg, rgba(1, 126, 231, 1) 23%, rgba(9, 76, 135, 1) 58%, rgba(1, 126, 231, 1) 100%);
+    font-family: "Share Tech", sans-serif;
 }
 
 .mention {
     background: #017EE7;
     background: linear-gradient(270deg, rgba(1, 126, 231, 1) 23%, rgba(9, 76, 135, 1) 58%, rgba(1, 126, 231, 1) 100%);
+    font-family: "Share Tech", sans-serif;
 }
 
 .cgv {
     background: #017EE7;
     background: linear-gradient(270deg, rgba(1, 126, 231, 1) 23%, rgba(9, 76, 135, 1) 58%, rgba(1, 126, 231, 1) 100%);
+    font-family: "Share Tech", sans-serif;
 }
 
 .css_un {
     background: #1f5480;
     background: linear-gradient(50deg, rgba(31, 84, 128, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(31, 84, 128, 1) 100%);
+}
+
+.panier {
+    background: #3E4E5A;
+    background: linear-gradient(50deg, rgba(62, 78, 90, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(62, 78, 90, 1) 100%);
 }
 
 .ecran {
@@ -50,6 +59,7 @@ body .index {
 footer {
     background: #1f5480;
     background: linear-gradient(50deg, rgba(31, 84, 128, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(31, 84, 128, 1) 100%);
+
 }
 
 .background_color {
@@ -60,4 +70,10 @@ footer {
 nav {
     background: #3E4E5A;
     background: linear-gradient(50deg, rgba(62, 78, 90, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(62, 78, 90, 1) 100%);
+    font-family: "Share Tech", sans-serif;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
 }
