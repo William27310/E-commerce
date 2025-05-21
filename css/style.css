@@ -1,6 +1,21 @@
-body {
+body .index {
     background: #017EE7;
     background: linear-gradient(0deg, rgba(1, 126, 231, 1) 30%, rgba(9, 74, 131, 1) 71%);
+}
+
+.formulaire {
+    background: #017EE7;
+    background: linear-gradient(353deg, rgba(1, 126, 231, 1) 23%, rgba(9, 76, 135, 1) 58%, rgba(1, 126, 231, 1) 100%);
+}
+
+.mention {
+    background: #017EE7;
+    background: linear-gradient(270deg, rgba(1, 126, 231, 1) 23%, rgba(9, 76, 135, 1) 58%, rgba(1, 126, 231, 1) 100%);
+}
+
+.cgv {
+    background: #017EE7;
+    background: linear-gradient(270deg, rgba(1, 126, 231, 1) 23%, rgba(9, 76, 135, 1) 58%, rgba(1, 126, 231, 1) 100%);
 }
 
 .css_un {
