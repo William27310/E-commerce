@@ -37,7 +37,7 @@ background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 
 }
 
 .ecrito {
-    font-size: larger;
+    font-size: large;
     background: #3E4E5A;
     background: linear-gradient(50deg, rgba(62, 78, 90, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(62, 78, 90, 1) 100%);
 }
