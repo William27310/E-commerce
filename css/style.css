@@ -33,17 +33,17 @@ background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 
 }
 
 .ecran {
-    width: 16rem;
+    width: 13rem;
 }
 
 .ecrito {
-    font-size: large;
+    font-size: small;
     background: #3E4E5A;
     background: linear-gradient(50deg, rgba(62, 78, 90, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(62, 78, 90, 1) 100%);
 }
 
 .carte {
-    width: 15rem;
+    width: 13rem;
     margin-top: 6.3rem;
 }
 
@@ -52,15 +52,35 @@ background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 
 }
 
 .interface_texte_deux {
-    margin-top: 6.3rem;
+    margin-top: 7.3rem;
+}
+
+.interface_texte_trois {
+    margin-top: 2.5rem;
+}
+
+.interface_texte_quatre {
+    margin-top: 1.5rem;
+}
+
+.interface_texte_cinq {
+    margin-top: 2.25rem;
+}
+
+.interface_texte_six {
+    margin-top: 1.5rem;
 }
 
 .carte_deux {
-    width: 15rem;
+    width: 13rem;
+}
+
+.watercooling_img_index {
+    width: 13rem;
 }
 
 .carte_trois {
-    width: 15rem;
+    width: 13rem;
     padding-top: 1rem;
     padding-bottom: 0.3rem;
 }
@@ -99,4 +119,8 @@ span {
 .body_mobile {
     background: #017EE7;
     background: linear-gradient(0deg, rgba(1, 126, 231, 1) 30%, rgba(9, 74, 131, 1) 71%);
+}
+
+.alimentation {
+    width: 13rem;
 }
