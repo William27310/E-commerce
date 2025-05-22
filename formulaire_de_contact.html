@@ -21,72 +21,94 @@
 
 <body class="formulaire d-flex flex-column min-vh-100">
 
-        <!-- Logo du site internet -->
-        <div class="css_un d-none d-lg-block">
-            <div class="text-center">
+    <!-- Logo du site internet -->
+    <div class="css_un d-none d-lg-block">
+        <div class="text-center">
             <a href="index.html"><img style="width: 10%;" src="img/Logo_Site.png" alt=""></a>
-            </div>
         </div>
+    </div>
 
-        <div class="css_un d-sm-none">
-            <div class="text-center">
+    <div class="css_un d-sm-none">
+        <div class="text-center">
             <a href="index.html"><img style="width: 40%;" src="img/Logo_Site.png" alt=""></a>
+        </div>
+    </div>
+
+    <!-- Barre de navigation -->
+    <!-- Page Pc -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-none d-lg-block">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-5 ms-5">
+                        <a class="nav-link text-white" href="#">Processeur</a>
+                    </li>
+                    <li class="nav-item mx-5 ms-5">
+                        <a class="nav-link text-white" href="#">Ecran</a>
+                    </li>
+                    <li class="nav-item mx-5 ms-5">
+                        <a class="nav-link text-white" href="#">Watercooling</a>
+                    </li>
+                    <li>
+                        <button type="button" class="btn text-white position-relative mx-5">
+                            <i class="bi bi-basket me-2"></i><span>Panier</span>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                2+
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
 
-        <!-- Barre de navigation -->
-        <!-- Page Pc -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary d-none d-lg-block">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item mx-5 ms-5">
-                            <a class="nav-link text-white" href="#">Processeur</a>
-                        </li>
-                        <li class="nav-item mx-5 ms-5">
-                            <a class="nav-link text-white" href="#">Ecran</a>
-                        </li>
-                        <li class="nav-item mx-5 ms-5">
-                            <a class="nav-link text-white" href="#">Watercooling</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- Page Mobile -->
+    <nav class="navbar navbar-expand-lg bg-primary d-sm-none">
+        <div class="container-fluid">
+            <button class="navbar-toggler bg-secondary text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item mx-auto ms-auto">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Processeur</a>
+                    </li>
+                    <li class="nav-item mx-auto ms-auto">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Ecran</a>
+                    </li>
+                    <li class="nav-item mx-auto ms-auto">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Watercooling</a>
+                    </li>
+                    </li>
+                    <hr class="text-white">
+                    <li class="mx-auto ms-auto">
+                        <button type="button" class="btn text-white position-relative">
+                            <i class="bi bi-basket me-2"></i><span>Panier</span>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger mt-2 mb-2">
+                                2+
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+                    </li>
+                </ul>
             </div>
-        </nav>
-
-        <!-- Page Mobile -->
-        <nav class="navbar navbar-expand-lg bg-primary d-sm-none">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
-                        <li class="nav-item mx-auto ms-auto">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Processeur</a>
-                        </li>
-                        <li class="nav-item mx-auto ms-auto">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Ecran</a>
-                        </li>
-                        <li class="nav-item mx-auto ms-auto">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Watercooling</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        </div>
+    </nav>
 
     <!-- Pour le contenu principal de la page -->
     <main class="pt-5 mx-auto pb-5 mt-5 mb-5 text-white">
 
         <!-- Pour le nom de la page -->
-        <div class="pb-3 text-center">
+        <div class="pb-5 text-center">
             <h1>Contact</h1>
         </div>
 
@@ -175,7 +197,7 @@
     </footer>
 
     <!-- Page Mobile -->
-        <footer>
+    <footer>
         <nav class="navbar navbar-expand-lg bg-body-tertiary d-lg-none">
             <div class="container-fluid">
                 <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
