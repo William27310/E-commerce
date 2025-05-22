@@ -1,3 +1,8 @@
+.modal-content {
+    background: #3E4E5A;
+    background: linear-gradient(50deg, rgba(62, 78, 90, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(62, 78, 90, 1) 100%);
+}
+
 body .index {
 background: #4d83b3;
 background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 50%, rgba(77, 131, 179, 1) 100%);
