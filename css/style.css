@@ -48,7 +48,7 @@ background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 
 }
 
 .interface_texte {
-    margin-top: 8rem;
+    margin-top: 7.9rem;
 }
 
 .interface_texte_deux {
@@ -72,7 +72,8 @@ background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 
 }
 
 .carte_deux {
-    width: 13rem;
+    width: 8rem;
+    margin-top: 4rem;
 }
 
 .watercooling_img_index {
