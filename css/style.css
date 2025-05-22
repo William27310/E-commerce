@@ -3,27 +3,32 @@
     background: linear-gradient(50deg, rgba(62, 78, 90, 1) 0%, rgba(17, 13, 12, 1) 50%, rgba(62, 78, 90, 1) 100%);
 }
 
+.modal {
+    font-family: "Share Tech", sans-serif;
+
+}
+
 body .index {
-background: #4d83b3;
-background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 50%, rgba(77, 131, 179, 1) 100%);
+    background: #4d83b3;
+    background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 50%, rgba(77, 131, 179, 1) 100%);
     font-family: "Share Tech", sans-serif;
 }
 
 .formulaire {
-background: #4d83b3;
-background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 50%, rgba(77, 131, 179, 1) 100%);
+    background: #4d83b3;
+    background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 50%, rgba(77, 131, 179, 1) 100%);
     font-family: "Share Tech", sans-serif;
 }
 
 .mention {
-background: #4d83b3;
-background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 50%, rgba(77, 131, 179, 1) 100%);
+    background: #4d83b3;
+    background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 50%, rgba(77, 131, 179, 1) 100%);
     font-family: "Share Tech", sans-serif;
 }
 
 .cgv {
-background: #4d83b3;
-background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 50%, rgba(77, 131, 179, 1) 100%);
+    background: #4d83b3;
+    background: linear-gradient(90deg, rgba(77, 131, 179, 1) 14%, rgba(4, 9, 15, 1) 50%, rgba(77, 131, 179, 1) 100%);
     font-family: "Share Tech", sans-serif;
 }
 
